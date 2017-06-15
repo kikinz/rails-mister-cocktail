@@ -1,0 +1,5 @@
+<%= simple_form_for([ cocktail, dose]) do |form| %>
+  <%= c.input :name %>
+  <%= c.input :dose %>
+  <%= c.submit "Add cocktail", class: "btn btn-primay" %>
+<% end %>
