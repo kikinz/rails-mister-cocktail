@@ -1,3 +1,12 @@
 @import "alert";
 @import "avatars";
 @import "badges";
+
+a {
+  color: #024136;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
